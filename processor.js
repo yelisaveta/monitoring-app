@@ -26,12 +26,8 @@ function start() {
 
         return makeRequest(item.url, item.method)
             .then((response, body) => { 
-                console.log(`recieved response for ${item.method}: ${item.url}`, JSON.stringify(response));
-
                 result.response.statusCode = response.statusCode;         
             }, err => {
-                console.warn(`unable to get response for ${item.method}: ${item.url}, error: ${err}`);
-                
                 result.response.error = err;
             })
             .then(() => {

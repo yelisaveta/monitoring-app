@@ -1,0 +1,7 @@
+[{
+    "url": "https://google.co.uk",
+    "method": "GET"
+}, {
+    "url": "https://www.bloomberg.co.uk",
+    "method": "GET"
+}]

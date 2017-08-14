@@ -1,0 +1,21 @@
+{
+  "name": "monitoring-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:debug": "node --inspect --debug-brk index.js",
+    "test": "jasmine --config=test/support/jasmine.json"
+  },
+  "author": "Lisa Gagarina <yelisavetatpu@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.7.0",
+    "proxyquire": "^1.8.0"
+  }
+}
